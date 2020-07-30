@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Scroll Parallax</title>
+</head>
+<body>
+  <header1>
+    <a href="" class="logo1">LOGO</a>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </header1>
+
+  <header>
+    <div class="intro-text">
+      <h1>Colorful</h1>
+      <h3>Make it yours.</h3>
+    </div>
+    <img class="chair" src="./img/chair-intro.png" alt="">
+    <img class="big-rose" src="./img/big-rose.png" alt="">
+    <img class="small-rose" src="./img/small-rose.png" alt="">
+  </header>
+
+  <section>
+    <h1>Welcome</h1>
+  </section>
+
+  <script>
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header1");
+      header.classList.toggle('sticky', window.scrollY > 700);
+    })
+  </script>
+
+  <script src="./app.js"></script>
+
+</body>
+</html>

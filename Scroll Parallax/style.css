@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 40px 100px;
+  transition: 0.6s;
+}
+
+header1.sticky{
+  transition: 0.6s;
+  padding: 35px 100px;
+  background: white;
+}
+
+header1 .logo1{
+  color: black;
+  letter-spacing: 2px;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.6s;
+}
+
+header1 ul{
+  display: flex;
+}
+
+header1 ul li{
+  list-style: none;
+
+}
+
+header1 ul li a{
+  margin: 0px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+header{
+  position: relative;
+  background-color: lightblue;
+  min-height: 100vh;
+  z-index: -1;
+}
+
+.intro-text{
+  position: absolute;
+  font-family: sans-serif;
+  top: 50%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+}
+
+.intro-text h1{
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.intro-text h3{
+  font-size: 35px;
+}
+
+.chair{
+  height: 700px;
+  position: absolute;
+  top: 90%;
+  right: 10%;
+  transform: translate(-10%, -90%);
+}
+
+.big-rose{
+  position: absolute;
+  top: 10%;
+  right: 40%;
+  height: 200px;
+}
+
+.small-rose{
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  height: 100px;
+}
+
+section{
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: black;
+}
