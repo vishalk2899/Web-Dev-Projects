@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background : url(./1.jpg);
+}
+
+#logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  animation: fill 0.5s ease forwards 3.5s;
+}
+
+#logo path:nth-child(1){
+   stroke-dasharray: 534px;
+   stroke-dashoffset: 534px;
+   animation: line-anime 2s ease forwards;
+}
+#logo path:nth-child(2){
+  stroke-dasharray: 490px;
+  stroke-dashoffset: 490px;
+  animation: line-anime 2s ease forwards 0.3s;
+
+}
+#logo path:nth-child(3){
+  stroke-dasharray: 297px;
+  stroke-dashoffset: 297px;
+  animation: line-anime 2s ease forwards 0.6s;
+
+}
+#logo path:nth-child(4){
+  stroke-dasharray: 297px;
+  stroke-dashoffset: 297px;
+  animation: line-anime 2s ease forwards 0.9s;
+
+}
+#logo path:nth-child(5){
+  stroke-dasharray: 565px;
+  stroke-dashoffset: 565px;
+  animation: line-anime 2s ease forwards 1.2s;
+
+}
+#logo path:nth-child(6){
+  stroke-dasharray: 801px;
+  stroke-dashoffset: 801px;
+  animation: line-anime 2s ease forwards 1.5s;
+
+}
+#logo path:nth-child(7){
+  stroke-dasharray: 463px;
+  stroke-dashoffset: 463px;
+  animation: line-anime 2s ease forwards 1.8s;
+
+}
+#logo path:nth-child(8){
+  stroke-dasharray: 463px;
+  stroke-dashoffset: 463px;
+  animation: line-anime 2s ease forwards 2.1s;
+
+}
+#logo path:nth-child(9){
+  stroke-dasharray: 604px;
+  stroke-dashoffset: 604px;
+  animation: line-anime 2s ease forwards 2.4s;
+
+}
+
+@keyframes line-anime {
+  to{
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes fill {
+  from{
+    fill: transparent;
+  }
+  to{
+    fill: white;
+  }
+}
