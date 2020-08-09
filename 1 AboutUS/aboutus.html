@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <script src="smooth-scroll.js"></script>
+  <title>Document</title>
+  <style>
+      .my-container{
+        /* border: 2px solid red; */
+        text-align: center;
+        background-color: rgb(232, 244, 248);
+
+      }
+
+      .my-row1{
+        /* letter-spacing: 0.4px; */
+        font-weight: bold;
+
+        font-size: 1.6rem;
+      }
+
+      .my-row2{
+        font-size: 3rem;
+      }
+
+      .my-row3{
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      .my-row4 button{
+        border-width: 2px;
+        font-weight: bold;
+        font-size: 1rem;
+        font-family: sans-serif;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+
+      .myrow4 button:focus{
+        outline: 0;
+      }
+
+      .my-row4 button:hover{
+        transition: 0.2s all ease-in-out;
+
+      }
+
+      .my-container3{
+        margin-top: 90px;
+      }
+
+
+      .my-row5 img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+
+      .my-row6{
+        font-size: 1.6rem;
+        font-weight: 450;
+      }
+
+      .my-row7{
+         text-align: center;
+      }
+
+      .my-row8{
+
+        font-size: 3.2rem;
+        font-family:  inherit;
+      }
+
+      .my-row9{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 450;
+      }
+
+      .colllll{
+        /* border: 2px solid red; */
+        padding: 50px;
+      }
+
+      .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+
+
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+.my-container5{
+  background-image: linear-gradient(#FFC0CB,white);
+}
+
+
+  @media (max-width: 600px){
+
+    .my-row1{
+      font-size: 1.2rem;
+    }
+
+    .my-row2{
+      font-size: 1.8rem;
+    }
+
+    .my-row3{
+      font-size: 1.2rem;
+    }
+
+    .my-row4 button{
+      font-size: 0.7rem;
+    }
+
+    .my-row6{
+      font-size: 1.2rem;
+
+    }
+
+    .my-row8{
+      font-size: 1.8rem;
+    }
+
+    .my-row9{
+      font-size: 1.2rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <section class="menu">
+    <nav class="navbar navbar-expand navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+      <button class="navbar-toggler navbar-toggler-right" type="button">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <div class="menu-logo">
+        <div class="navbar-brand">
+          <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-5" href=""></a>
+            About Us Page Template
+          </span>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-dropdown">
+          <li class="nav-itemdropdown">
+            <a class="nav-link link dropdown-toggle text-black" href="#" data-toggle="dropdown-submenu">
+              Block 1
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </section>
+
+
+
+
+  <!-- Container 1 -->
+  <div class="container-fluid my-container">
+
+
+    <div class="row my-row1 justify-content-md-center">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 mt-5">Responsive Bootstrap About Us Page Template</div>
+      <div class="col-md-2"></div>
+    </div>
+
+
+    <div class="row my-row2 mt-3 justify-content-center text-responsive-md">
+        MEET OUR TEAM
+    </div>
+
+
+    <div class="row my-row3 mt-3 mb-5 justify-content-center">
+      <div class="col-md-2"></div>
+      <div class="col-md">
+        Etiam in libero gravida, viverra ex eu, vehicula leo. Vestibulum eget elementum velit. Fusce viverra erat quis felis auctor, id consequat augue sollicitudin. Vivamus accumsan mi metus, vitae lacinia metus aliquet ornare. Curabitur interdum scelerisque varius. Nullam consequat imperdiet massa eget eleifend.
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+
+
+    <div class="row my-row4 justify-content-center">
+      <div class="col-md-4"></div>
+      <div class="col-md-4 mb-5">
+        <button class="btn btn-outline-dark" type="button">CONTACT US</button>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+
+  </div>
+
+
+  <!-- container2 -->
+  <div class="container-fluid my-container2">
+    <div class="row my-row5 mb-5">
+      <img src="images/bar.jpg" alt="">
+    </div>
+
+  </div>
+
+  <!-- container3 -->
+  <div class="container-fluid my-container3">
+    <div class="row mb-5">
+
+      <div class="col-md-1"></div>
+
+
+      <div class="col-md my-col1 mx-5">
+        <div class="row justify-content-center mb-3 mt-3">
+          <img src="images/1.png" alt="">
+        </div>
+        <div class="row justify-content-center my-row6">
+          <p>Creativity</p>
+        </div>
+        <div class="row justify-content-center my-row7">
+          <p>Quotes are very powerful. I mean someone did “quote” these words for a reason</p>
+        </div>
+      </div>
+
+
+      <div class="col-sm my-col1 mx-5">
+        <div class="row justify-content-center mb-3 mt-3">
+          <img src="images/1.png" alt="">
+        </div>
+        <div class="row justify-content-center my-row6">
+          <p>Worldwide</p>
+        </div>
+        <div class="row justify-content-center my-row7">
+          <p>Quotes are very powerful. I mean someone did “quote” these words for a reason</p>
+
+        </div>
+      </div>
+
+
+      <div class="col-md my-col1 mx-5">
+        <div class="row justify-content-center mb-3 mt-3">
+          <img src="images/1.png" alt="">
+        </div>
+        <div class="row justify-content-center my-row6">
+          <p>Unique Styles</p>
+        </div>
+        <div class="row my-row7">
+          <p>Quotes are very powerful. I mean someone did “quote” these words for a reason</p>
+
+        </div>
+      </div>
+
+
+      <div class="col-md-1"></div>
+
+
+    </div>
+  </div>
+
+  <!-- container4 -->
+  <div class="container my-container4">
+
+    <div class="row">
+
+      <div class="col-md-2"></div>
+
+      <div class="col-md colllll">
+        <div class="row">
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block rounded-circle mb-5 mx-auto img-fluid" srcset="images/img1.jpg" width="200px" height="200px" alt="">
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!</p>
+                    <p class="text-center mt-5 mb-0"><b>Linda</b></p>
+                    <p class="text-center">DESIGNER</p>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block rounded-circle mb-5 mx-auto img-fluid" src="images/img2.jpg" width="200px" height="200px" alt="">
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!</p>
+                    <p class="text-center mt-5 mb-0"><b>Halsey</b></p>
+                    <p class="text-center">DESIGNER</p>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block rounded-circle mb-5 mx-auto img-fluid" src="images/img3.jpg" width="200px" height="200px" alt="">
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!</p>
+                    <p class="text-center mt-5 mb-0"><b>Erica</b></p>
+                    <p class="text-center">DESIGNER</p>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-2"></div>
+
+    </div>
+
+  </div>
+
+  <!-- container5 -->
+  <div class="container-fluid my-container5 mb-5">
+    <div class="row justify-content-center my-row8">
+      <p class="mt-5 mb-0">Our Clients</p>
+    </div>
+    <div class="row justify-content-center my-row9">
+      <div class="col-md-2"></div>
+      <div class="col-md">
+        <p class="mt-5">Donec malesuada vestibulum dolor, eu mollis enim lacinia id.</p>
+      </div>
+      <div class="col-md-2"></div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
